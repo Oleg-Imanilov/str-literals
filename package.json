@@ -2,6 +2,8 @@
   "name": "js-template",
   "version": "0.1.0",
   "description": "Dynamic string template with expressions support",
+  "author": "Oleg Imanilov",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,8 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/Oleg-Imanilov/js-template.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Oleg-Imanilov/js-template/issues"
   },

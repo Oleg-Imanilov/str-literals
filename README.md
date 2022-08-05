@@ -41,3 +41,6 @@ Total : 15
 ```
 
 
+# License
+
+MIT © [Oleg Imanilov](https://github.com/Oleg-Imanilov/js-template#readme)
