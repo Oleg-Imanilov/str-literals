@@ -28,7 +28,7 @@ Hello, World!
 ## JS Array expression
 ```
 const template = require('str-literals')
-console.log( template('Note: ${arr.join('')}', {arr: ['Hello, ', 'World', '!']}))
+console.log( template('Note: ${arr.join("")}', {arr: ['Hello, ', 'World', '!']}))
 ```
 Output:
 ```
