@@ -1,4 +1,4 @@
-# js-template
+# str-literals
 
 Dynamic string template with simple expressions support. 
 
@@ -8,11 +8,16 @@ You can use all global functions and objects unless you don't using `"{"` and/or
 
 > Be carreful when using this module, expression evaluation using `eval` function.   
 
+```
+npm install str-literals
+```
+
+
 # Examples
 ## Simple variable:
 
 ```
-const template = require('js-template')
+const template = require('str-literals')
 console.log( template('Hello, ${who}!', {who: 'World'}))
 ```
 Output:
@@ -22,7 +27,7 @@ Hello, World!
 
 ## JS Array expression
 ```
-const template = require('js-template')
+const template = require('str-literals')
 console.log( template('Note: ${arr.join('')}', {arr: ['Hello, ', 'World', '!']}))
 ```
 Output:
@@ -32,7 +37,7 @@ Note: Hello, World!
 
 ## Numeric expression
 ```
-const template = require('js-template')
+const template = require('str-literals')
 console.log( template('Total : ${10 + a - b}', {a: 10, b: 5}))
 ```
 Output:
@@ -43,4 +48,4 @@ Total : 15
 
 # License
 
-MIT © [Oleg Imanilov](https://github.com/Oleg-Imanilov/js-template#readme)
+MIT © [Oleg Imanilov](https://github.com/Oleg-Imanilov/str-literals#readme)
