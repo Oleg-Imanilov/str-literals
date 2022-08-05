@@ -16,7 +16,5 @@
     "url": "https://github.com/Oleg-Imanilov/js-template/issues"
   },
   "homepage": "https://github.com/Oleg-Imanilov/js-template#readme",
-  "devDependencies": {
-    "jest": "^28.1.3"
-  }
+  "devDependencies": {}
 }
