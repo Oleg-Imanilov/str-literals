@@ -1,5 +1,5 @@
 {
-  "name": "js-template",
+  "name": "str-literals",
   "version": "0.1.0",
   "description": "Dynamic string template with expressions support",
   "author": "Oleg Imanilov",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Oleg-Imanilov/js-template.git"
+    "url": "git+https://github.com/Oleg-Imanilov/str-literals.git"
   },
   "bugs": {
-    "url": "https://github.com/Oleg-Imanilov/js-template/issues"
+    "url": "https://github.com/Oleg-Imanilov/str-literals/issues"
   },
-  "homepage": "https://github.com/Oleg-Imanilov/js-template#readme",
+  "homepage": "https://github.com/Oleg-Imanilov/str-literals#readme",
   "devDependencies": {}
 }
