@@ -16,8 +16,10 @@ npm install str-literals
 # Examples
 ## Simple variable:
 
-```
+```javascript
 const template = require('str-literals')
+// const who = 'World'
+// console.log( `Hello, ${who}!`)
 console.log( template('Hello, ${who}!', {who: 'World'}))
 ```
 Output:
@@ -25,8 +27,20 @@ Output:
 Hello, World!
 ```
 
-## JS Array expression
+## No variables:
+
+```javascript
+const template = require('str-literals')
+console.log( template('Total: ${1+1}') )
 ```
+Output:
+```
+Total: 2
+```
+
+
+## JS Array expression
+```javascript
 const template = require('str-literals')
 console.log( template('Note: ${arr.join("")}', {arr: ['Hello, ', 'World', '!']}))
 ```
@@ -36,7 +50,7 @@ Note: Hello, World!
 ```
 
 ## Numeric expression
-```
+```javascript
 const template = require('str-literals')
 console.log( template('Total : ${10 + a - b}', {a: 10, b: 5}))
 ```

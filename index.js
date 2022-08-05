@@ -1,12 +1,12 @@
 
-const template = (tpl, values) => {
+const template = (tpl, values = {}) => {
     const regex = /\${(.*?)}/g
     return tpl.replace(regex, (_, g) => {
-        let s = 'function _() {'
+        let s = '(()=>{'
         Object.keys(values).forEach((k)=>{
-            s += `const ${k} = ${JSON.stringify(values[k])};\n`
+            s += `const ${k} = ${JSON.stringify(values[k])};`
         })
-        s += `return ${g}; } _()`
+        s += `return ${g}; })()`
         return eval(s)
     });
 }

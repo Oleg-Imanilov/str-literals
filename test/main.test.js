@@ -1,5 +1,8 @@
 const tpl = require('..')
 
 test('Simple works', () => {
-  expect(tpl('Hello, ${who}', {who:'World'})).toBe('Hello, World');
+  const who = 'World'
+  const result = `Hello, ${who}`
+  expect(tpl('Hello, ${who}', { who }))
+    .toBe(result);
 });
